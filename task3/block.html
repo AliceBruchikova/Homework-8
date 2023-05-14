@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Bru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+.title {
+    width: 282px;
+    height: 34px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 28px;
+    margin: 64px 0 32px 150px;
+}
+.first {
+    display: flex;
+    flex-direction: column;
+}
+.input-first {
+    width: 472px;
+    height: 50px;
+    border-radius: 83px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    margin: 0 0 24px 150px;
+    padding: 0 24px;
+}
+.mail {
+    color: rgb(129, 129, 129);
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    width: 522px;
+    appearance: none;
+    background: url(Vector.png) no-repeat right;
+    background-position-x: calc(100% - 24px)
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    width: 692px;
+    margin: 0 0 24px 150px;
+}
+.input-second-street {
+    width: 206px;
+    height: 50px;
+    border-radius: 83px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    padding: 0 24px;
+}
+.input-second {
+    width: 82px;
+    height: 50px;
+    border-radius: 83px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    padding: 0 24px;
+}
+.input-third {
+    width: 644px;
+    height: 50px;
+    border-radius: 83px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    margin: 0 0 0 150px;
+    padding: 0 24px;
+}
+input {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+}
+    </style>
+</head>
+<body>
+    <div class="title">Способ получения</div>
+    <form class="first">
+        <input class="input-first" type="text" placeholder="Город">
+        <select class="input-first mail">
+            <option>Почта России</option>
+        </select>
+    </form>
+    <form class="info">
+        <input class="input-second-street" type="text" placeholder="Улица">        
+        <input class="input-second" type="text" placeholder="Дом">
+        <input class="input-second" type="text" placeholder="Квартира">
+        <input class="input-second" type="text" placeholder="Индекс">
+    </form>
+    <form>
+        <input class="input-third" type="text" placeholder="Добавить комментарий">
+    </form>
+</body>
+</html>

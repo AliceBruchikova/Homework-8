@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alice Bru</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        .block {
+            width: 808px;
+            height: 351px;
+            margin: 245px 0 0 280px;
+            background-color: white;
+            display: flex;
+            border-radius: 15px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+            position: absolute;
+            z-index: 1;
+        }
+        .block-info {
+            margin: 0 40px 0 0;
+        }
+        .block-info-title {
+            width: 324px;
+            height: 54px;
+            font-family: "Montserrat";
+            font-weight: 700;
+            font-size: 15px;
+            color: rgba(55, 16, 48, 1);
+            margin: 31px 0 17px 40px;
+        }
+        input {
+            font-family: "Montserrat";
+            font-weight: 400;
+            font-size: 16px;
+            color: rgba(55, 16, 48, 1);
+        }
+        .block-star {
+            width: 324px;
+            height: 30px;
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0 21px 40px;
+        }
+        .block-star-item {
+            width: 144px;
+            height: 30px;
+            border-bottom: 1px solid rgba(55, 16, 48, 1);
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+        }
+        .block-additionaly {
+            width: 324px;
+            height: 80px;
+            margin: 0 0 40px 40px;
+        }
+        .block-additionaly-item {
+            width: 324px;
+            height: 30px;
+            border-bottom: 1px solid rgba(55, 16, 48, 1);
+            border-top: 0px;
+            border-right: 0px;
+            border-left: 0px;
+            margin: 0 0 20px 0;
+        }
+        .block-button {
+            width: 324px;
+            height: 55px;
+            background-color: rgba(255, 176, 186, 1);
+            color: rgba(154, 60, 72, 1);
+            font-family: "Montserrat";
+            font-weight: 900;
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 23px 0 40px 40px;
+            border-radius: 100px;
+            box-shadow: 3px 3px 0px 3px #DE8E98;
+        }
+        .img {
+            width: 404px;
+            height: 351px;
+            border-radius: 0px 15px 15px 0px;
+        }
+        .image {
+            position: absolute;
+            width: 495px;
+            height: 495px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <img class="image" src="flowers 2.png" alt="">
+    <div class="block">
+        <div class="block-info">
+            <div class="block-info-title">Не нашли что искали? Оставьте <p style="margin: 0;">заявку и мы разработаем программу </p>специально для вас!</div>
+            <form class="block-star">
+                <input class="block-star-item" type="text" placeholder="Имя*">
+                <input class="block-star-item" type="tel" placeholder="Телефон*">
+            </form>
+            <form class="block-additionaly">
+                <input class="block-additionaly-item" type="email" placeholder="Email">
+                <input class="block-additionaly-item" type="text" placeholder="Комментарий">
+            </form>
+            <div class="block-button">Отправить</div>
+        </div>
+        <div><img class="img" src="cover9.png" alt=""></div>
+    </div>
+</body>
+</html>
